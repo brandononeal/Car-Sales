@@ -16,6 +16,4 @@ export const AddedFeature = (props) => {
   );
 };
 
-export const mapStateToProps = () => {};
-
-export default connect(mapStateToProps, { removeFeature })(AddedFeature);
+export default connect(null, { removeFeature })(AddedFeature);
